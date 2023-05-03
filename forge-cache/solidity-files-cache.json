@@ -175,6 +175,47 @@
         }
       }
     },
+    "contracts/Assembly_5.sol": {
+      "lastModificationDate": 1683105807799,
+      "contentHash": "7007488a2c610ddc656a9834845deceb",
+      "sourceName": "contracts/Assembly_5.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "EthAmount": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Assembly_5.sol/EthAmount.0.8.17.json",
+          "0.8.19+commit.7dd6d404.Linux.gcc": "Assembly_5.sol/EthAmount.0.8.19.json"
+        }
+      }
+    },
     "lib/forge-std/lib/ds-test/src/test.sol": {
       "lastModificationDate": 1683097562292,
       "contentHash": "9febff9d09f18af5306669dc276c4c43",
@@ -1184,6 +1225,65 @@
       "artifacts": {
         "IncrementTest": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "Assembly_4.t.sol/IncrementTest.json"
+        }
+      }
+    },
+    "test/foundry/Assembly_5.t.sol": {
+      "lastModificationDate": 1683106713380,
+      "contentHash": "45da1ee48397e6268a70d4c45e943f9a",
+      "sourceName": "test/foundry/Assembly_5.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/Assembly_5.sol",
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol"
+      ],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "EthAmountTest": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Assembly_5.t.sol/EthAmountTest.json"
         }
       }
     }
