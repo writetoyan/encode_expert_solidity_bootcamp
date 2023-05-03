@@ -1,0 +1,352 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "intro",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50608f8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632cc0e39014602d575b600080fd5b6033604a565b60405161ffff909116815260200160405180910390f35b6101a460008181529080602083f3fea26469706673582212201419f24d38563ba53fc41ea7e30fcfb56220fccfab48b589a70cb0e5a0ffc2f164736f6c63430008130033",
+    "sourceMap": "64:670:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80632cc0e39014602d575b600080fd5b6033604a565b60405161ffff909116815260200160405180910390f35b6101a460008181529080602083f3fea26469706673582212201419f24d38563ba53fc41ea7e30fcfb56220fccfab48b589a70cb0e5a0ffc2f164736f6c63430008130033",
+    "sourceMap": "64:670:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;85:647;;;:::i;:::-;;;188:6:22;176:19;;;158:38;;146:2;131:18;85:647:0;;;;;;;;155:3;123:6;667:17;;;123:6;155:3;711:4;123:6;697:19",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "intro()": "2cc0e390"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"intro\",\"outputs\":[{\"internalType\":\"uint16\",\"name\":\"\",\"type\":\"uint16\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Assembly_1.sol\":\"Intro\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":forge-std/=lib/forge-std/src/\",\":hardhat/=node_modules/hardhat/\"]},\"sources\":{\"contracts/Assembly_1.sol\":{\"keccak256\":\"0xf4d7a475609a15a9b6409d1a2760dc2e171a2a786ed2f20adb52d9eb11b5d3a9\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://fe13205a99aa34dc25e27dbb3964243d66c613b3301490021a1ff329967586d0\",\"dweb:/ipfs/QmUfznqasRZ3aKDdKDuEV3vCnDFtUTKbES2ZhkQqR9bpz6\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "intro",
+          "outputs": [
+            {
+              "internalType": "uint16",
+              "name": "",
+              "type": "uint16"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        ":forge-std/=lib/forge-std/src/",
+        ":hardhat/=node_modules/hardhat/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/Assembly_1.sol": "Intro"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/Assembly_1.sol": {
+        "keccak256": "0xf4d7a475609a15a9b6409d1a2760dc2e171a2a786ed2f20adb52d9eb11b5d3a9",
+        "urls": [
+          "bzz-raw://fe13205a99aa34dc25e27dbb3964243d66c613b3301490021a1ff329967586d0",
+          "dweb:/ipfs/QmUfznqasRZ3aKDdKDuEV3vCnDFtUTKbES2ZhkQqR9bpz6"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/Assembly_1.sol",
+    "id": 14,
+    "exportedSymbols": {
+      "Intro": [
+        13
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:696:0",
+    "nodes": [
+      {
+        "id": 1,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:0",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".4"
+        ]
+      },
+      {
+        "id": 13,
+        "nodeType": "ContractDefinition",
+        "src": "64:670:0",
+        "nodes": [
+          {
+            "id": 12,
+            "nodeType": "FunctionDefinition",
+            "src": "85:647:0",
+            "nodes": [],
+            "body": {
+              "id": 11,
+              "nodeType": "Block",
+              "src": "131:601:0",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    7
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 7,
+                      "mutability": "mutable",
+                      "name": "mol",
+                      "nameLocation": "149:3:0",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 11,
+                      "src": "141:11:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 6,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "141:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 9,
+                  "initialValue": {
+                    "hexValue": "343230",
+                    "id": 8,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "155:3:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_rational_420_by_1",
+                      "typeString": "int_const 420"
+                    },
+                    "value": "420"
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "141:17:0"
+                },
+                {
+                  "AST": {
+                    "nodeType": "YulBlock",
+                    "src": "242:484:0",
+                    "statements": [
+                      {
+                        "nodeType": "YulVariableDeclaration",
+                        "src": "640:14:0",
+                        "value": {
+                          "name": "mol",
+                          "nodeType": "YulIdentifier",
+                          "src": "651:3:0"
+                        },
+                        "variables": [
+                          {
+                            "name": "var",
+                            "nodeType": "YulTypedName",
+                            "src": "644:3:0",
+                            "type": ""
+                          }
+                        ]
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "674:4:0",
+                              "type": "",
+                              "value": "0x00"
+                            },
+                            {
+                              "name": "var",
+                              "nodeType": "YulIdentifier",
+                              "src": "680:3:0"
+                            }
+                          ],
+                          "functionName": {
+                            "name": "mstore",
+                            "nodeType": "YulIdentifier",
+                            "src": "667:6:0"
+                          },
+                          "nodeType": "YulFunctionCall",
+                          "src": "667:17:0"
+                        },
+                        "nodeType": "YulExpressionStatement",
+                        "src": "667:17:0"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "705:4:0",
+                              "type": "",
+                              "value": "0x00"
+                            },
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "711:4:0",
+                              "type": "",
+                              "value": "0x20"
+                            }
+                          ],
+                          "functionName": {
+                            "name": "return",
+                            "nodeType": "YulIdentifier",
+                            "src": "697:6:0"
+                          },
+                          "nodeType": "YulFunctionCall",
+                          "src": "697:19:0"
+                        },
+                        "nodeType": "YulExpressionStatement",
+                        "src": "697:19:0"
+                      }
+                    ]
+                  },
+                  "evmVersion": "london",
+                  "externalReferences": [
+                    {
+                      "declaration": 7,
+                      "isOffset": false,
+                      "isSlot": false,
+                      "src": "651:3:0",
+                      "valueSize": 1
+                    }
+                  ],
+                  "id": 10,
+                  "nodeType": "InlineAssembly",
+                  "src": "233:493:0"
+                }
+              ]
+            },
+            "functionSelector": "2cc0e390",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "intro",
+            "nameLocation": "94:5:0",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "99:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 12,
+                  "src": "123:6:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint16",
+                    "typeString": "uint16"
+                  },
+                  "typeName": {
+                    "id": 3,
+                    "name": "uint16",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "123:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint16",
+                      "typeString": "uint16"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "122:8:0"
+            },
+            "scope": 13,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Intro",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          13
+        ],
+        "name": "Intro",
+        "nameLocation": "73:5:0",
+        "scope": 14,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 0
+}
