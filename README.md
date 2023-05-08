@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+## Gas optimization exercise
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+> Your task is to edit and optimise the Gas.sol contract.
+You cannot edit the tests
+All the tests must pass.
+You can change the functionality of the contract as long as the tests pass.
+Try to get the gas usage as low as possible.
 
-Try running some of the following tasks:
+To run the tests
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+`$ forge test --match-contract GasTest --gas-report`
+
+In this exercise, I was able to reduce the deployment cost and gas usage of the different functions from this: 
+
+![Gas Before Optimization](/assets/gasBeforeOptimization.png "Gas Before Optmization")
+
+
+To this: 
+
+![Gas After Optimization](/assets/gasAfterOptimization.png "Gas After Optmization")
+
